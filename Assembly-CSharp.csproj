@@ -59,6 +59,15 @@
     <Compile Include="Assets\Scripts\TestScript.cs" />
     <Compile Include="Assets\Scripts\MasterClass.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\c23008Scripts\BoxScript.cs" />
+    <Compile Include="Assets\c23008Scripts\CameraScript.cs" />
+    <Compile Include="Assets\c23008Scripts\ForzaDrone.cs" />
+    <Compile Include="Assets\c23008Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\c23008Scripts\DroneScript.cs" />
+    <Compile Include="Assets\c23008Scripts\ActionTargetScipt.cs" />
+    <Compile Include="Assets\c23008Scripts\GameControllerScript.cs" />
+    <Compile Include="Assets\c23008Scripts\CarScript.cs" />
+    <Compile Include="Assets\c23008Scripts\TitleScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
