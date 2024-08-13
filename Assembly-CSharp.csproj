@@ -56,18 +56,18 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\TestScript.cs" />
-    <Compile Include="Assets\Scripts\MasterClass.cs" />
-    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\c23008Scripts\BoxScript.cs" />
-    <Compile Include="Assets\c23008Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\TestScript.cs" />
     <Compile Include="Assets\c23008Scripts\ForzaDrone.cs" />
-    <Compile Include="Assets\c23008Scripts\PlayerScript.cs" />
-    <Compile Include="Assets\c23008Scripts\DroneScript.cs" />
-    <Compile Include="Assets\c23008Scripts\ActionTargetScipt.cs" />
-    <Compile Include="Assets\c23008Scripts\GameControllerScript.cs" />
-    <Compile Include="Assets\c23008Scripts\CarScript.cs" />
     <Compile Include="Assets\c23008Scripts\TitleScript.cs" />
+    <Compile Include="Assets\c23008Scripts\CarScript.cs" />
+    <Compile Include="Assets\Scripts\MasterClass.cs" />
+    <Compile Include="Assets\c23008Scripts\ActionTargetScipt.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\c23008Scripts\DroneScript.cs" />
+    <Compile Include="Assets\c23008Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\c23008Scripts\CameraScript.cs" />
+    <Compile Include="Assets\c23008Scripts\GameControllerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
