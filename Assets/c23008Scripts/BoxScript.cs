@@ -11,6 +11,7 @@ public class BoxScript : MonoBehaviour
     [SerializeField] AudioClip woodAS;
     [SerializeField] AudioClip glassAS;
     [SerializeField] AudioClip canAS;
+    [SerializeField] AudioClip CheckPointAS;
     void Start()
     {
         
@@ -63,6 +64,16 @@ public class BoxScript : MonoBehaviour
         if (other.gameObject.tag == "Can")
         {
             audioSource.PlayOneShot(canAS);
+        }
+
+        if(other.gameObject.tag == "CheckPoint")
+        {
+            audioSource.PlayOneShot(CheckPointAS);
+        }
+
+        if(other.gameObject.tag == "Area")
+        {
+            return;
         }
 
         if (other.gameObject.tag != "Action")

@@ -17,6 +17,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] CameraScript cameraScript;
     [SerializeField] GameControllerScript gameControllerScript;
 
+    [SerializeField] GameObject droneOBJ;
     [SerializeField] GameObject actionOBJ;
     [SerializeField] GameObject action2OBJ;
     [SerializeField] GameObject target;
@@ -58,14 +59,15 @@ public class PlayerScript : MonoBehaviour
             moveDirection.y -= gravity * Time.deltaTime;
             if (Input.GetKey(KeyCode.I) && characterController.height < 1000)
             {
-                characterController.height += 1;
-                characterController.center -= (Vector3.up * 0.5f);
+                transform.position += new Vector3(0, 0.1f, 0);
+                characterController.height += 5;
+                characterController.center -= (Vector3.up * 2.5f);
             }
 
             if (Input.GetKey(KeyCode.K) && characterController.height > 30)
             {
-                characterController.height -= 1;
-                characterController.center += (Vector3.up * 0.5f);
+                characterController.height -= 5;
+                characterController.center += (Vector3.up * 2.5f);
             }
 
             if (Input.GetAxis("Vertical") != 0.0f)

@@ -7,6 +7,7 @@ public class CameraScript : MonoBehaviour
 {
     [SerializeField] GameObject lookTarget;
     [SerializeField] GameObject actTarget;
+    [SerializeField] GameObject droneTarget;
     [SerializeField] GameObject nomalTarget;
     public bool action;
     void Start()
@@ -29,7 +30,7 @@ public class CameraScript : MonoBehaviour
     void Action()
     {
         transform.position = actTarget.transform.position;
-        transform.LookAt(nomalTarget.transform.position);
+        transform.LookAt(droneTarget.transform.position);
     }
 
     void Nomal()

@@ -68,6 +68,8 @@
     <Compile Include="Assets\c23008Scripts\PlayerScript.cs" />
     <Compile Include="Assets\c23008Scripts\CameraScript.cs" />
     <Compile Include="Assets\c23008Scripts\GameControllerScript.cs" />
+    <Compile Include="Assets\Script\NextCheckPointScript.cs" />
+    <Compile Include="Assets\Script\CheckPointScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

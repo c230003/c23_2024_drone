@@ -358,6 +358,8 @@
 "Assets/c23008Scripts/GameControllerScript.cs"
 "Assets/c23008Scripts/PlayerScript.cs"
 "Assets/c23008Scripts/TitleScript.cs"
+"Assets/Script/CheckPointScript.cs"
+"Assets/Script/NextCheckPointScript.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/MasterClass.cs"
 "Assets/Scripts/TestScript.cs"
