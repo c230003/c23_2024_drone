@@ -1,1 +1,3 @@
-D:\Work_Masaya\2024_UnityProject\c23_2024_drone
+version https://git-lfs.github.com/spec/v1
+oid sha256:83a68156fc4cd14789ed258123c30cd0e8ccf8da03d893ea36407a7b76f83b79
+size 48
